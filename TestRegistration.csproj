@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+
+    <ExcelAddInExplicitRegistration>true</ExcelAddInExplicitRegistration>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="ExcelDna.AddIn" Version="1.7.0-rc9" />
+    <PackageReference Include="ExcelDna.Registration" Version="1.7.0-rc9" />
+  </ItemGroup>
+
+</Project>
